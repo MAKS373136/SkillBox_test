@@ -1,9 +1,6 @@
 # Makefile
 
-develop
-# Запуск тестов СЕЙЧАС ТОЧНО
-
-main
+# Запуск тестов
 test:
 	python3 -m unittest discover -s tests -p "test_*.py"
 
