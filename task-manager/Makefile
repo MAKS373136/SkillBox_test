@@ -1,6 +1,6 @@
 # Makefile
 
-# Запуск тестов проверка_1
+# Запуск тестов проверка
 test:
 	python3 -m unittest discover -s tests -p "test_*.py"
 
