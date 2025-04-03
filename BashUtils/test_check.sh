@@ -12,7 +12,7 @@ fi
 rm -rf res_cat.txt
 
 cd ../grep
- 
+
 bash test_grep.sh &> res_grep.txt
 
 RES_G=$(grep -c "FAIL" res_grep.txt)
