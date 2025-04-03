@@ -7,7 +7,7 @@ DIR_OBJS = objs
 PATH_OBJS = $(addprefix $(DIR_OBJS)/, $(OBJS))
 CFLAGS = -Wall -Wextra -Werror -g -std=c11 -D_GNU_SOURCE -D_POSIX_C_SOURCE=200809L
 TEST_SCRIPT = test_grep.sh
-CLANG_PATH = ../../materials/linters/
+CLANG_PATH = ../../
 
 .PHONY: all clean test check format clang_replace rebuild
 
