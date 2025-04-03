@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -Wextra -Werror -std=c11
 TEST_FLAGS=-lcheck
-CLANG_PATH=../../materials/linters/
+CLANG_PATH=../../
 OBJS = s21_cat.o
 TARGET = s21_cat
 TEST_SCRIPT=test_cat.sh

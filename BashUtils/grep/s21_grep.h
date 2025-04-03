@@ -18,7 +18,7 @@ typedef struct s_flag {
 } t_flag;
 
 typedef struct s_grep {
-  char *flags;  //для инициализации флагов через init_flags
+  char *flags;  // для инициализации флагов через init_flags
   char *templates;
   size_t num_flags;
   size_t num_filenames;
